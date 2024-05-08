@@ -1,5 +1,8 @@
 # PCA-EXP-6-MATRIX-TRANSPOSITION-USING-SHARED-MEMORY-AY-23-24
-
+<h3>NAME : HARSHAVARDHAN</h3>
+<h3>REGISTER NO : 212222240114</h3>
+<h3>EX. NO : 6</h3>
+<h3>DATE :</h3>
 <h1> <align=center> MATRIX TRANSPOSITION USING SHARED MEMORY </h3>
   Implement Matrix transposition using GPU Shared memory.</h3>
 
@@ -57,7 +60,7 @@ Google Colab with NVCC Compiler
 16. End of Algorithm
 
 ## PROGRAM:
-```c
+```python
 !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
 %load_ext nvcc4jupyter
 %%writefile mattran.cu
@@ -400,11 +403,13 @@ CHECK(cudaMemset(d_C, 0, nBytes));
 ```
 
 ## OUTPUT:
-![image](https://github.com/LakshmanAdhireddy/PCA-EXP-6-MATRIX-TRANSPOSITION-USING-SHARED-MEMORY-AY-23-24/assets/118707265/24ec12e2-1bb4-4ff9-9247-6c8001bdbb9c)
-![image](https://github.com/LakshmanAdhireddy/PCA-EXP-6-MATRIX-TRANSPOSITION-USING-SHARED-MEMORY-AY-23-24/assets/118707265/babce5f5-92a0-4257-b63f-03e973aa911c)
-![image](https://github.com/LakshmanAdhireddy/PCA-EXP-6-MATRIX-TRANSPOSITION-USING-SHARED-MEMORY-AY-23-24/assets/118707265/421ce81d-3bfc-403b-ab59-7f822424b17e)
-![image](https://github.com/LakshmanAdhireddy/PCA-EXP-6-MATRIX-TRANSPOSITION-USING-SHARED-MEMORY-AY-23-24/assets/118707265/1dab672a-0272-4b76-9ab5-2765e91b37ef)
+
+![pca_6 1](https://github.com/gummadileepkumar/PCA-EXP-6-MATRIX-TRANSPOSITION-USING-SHARED-MEMORY-AY-23-24/assets/118707761/a58cb258-0126-42be-aca7-d9b17dc6da95)
+![pca_6 2](https://github.com/gummadileepkumar/PCA-EXP-6-MATRIX-TRANSPOSITION-USING-SHARED-MEMORY-AY-23-24/assets/118707761/903ba6ee-c6a3-4f21-9cca-09191924effd)
+![pca_6 3](https://github.com/gummadileepkumar/PCA-EXP-6-MATRIX-TRANSPOSITION-USING-SHARED-MEMORY-AY-23-24/assets/118707761/be4c63c6-669d-4ba1-98e9-f11cc92104a6)
+
+![pca_6 4](https://github.com/gummadileepkumar/PCA-EXP-6-MATRIX-TRANSPOSITION-USING-SHARED-MEMORY-AY-23-24/assets/118707761/1296eb0b-bf05-4f55-a87f-90a9e6ad93eb)
 
 
 ## RESULT:
-Thus the program has been executed by using CUDA to transpose a matrix. It is observed that there are variations shared memory and global memory implementation. The elapsed times are recorded as 1.6950.
+Thus the program has been executed by using CUDA to transpose a matrix. It is observed that there are variations shared memory and global memory implementation. The elapsed times are recorded as  1.6950.
